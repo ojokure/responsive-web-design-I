@@ -87,13 +87,20 @@ Copy and paste your work from yesterday here and start to refactor into flexbox 
 .seprovi{
     display:flex;
     justify-content: space-between;
-    padding-bottom: 25px;
+    /* padding-bottom: 25px; */
     border-bottom: 1px solid black;
-    text-align: centre;
-    width:100%;
-
 }
-
+.services{
+    width: 30%;
+    float: none;
+    
+}
+.product{
+    width: 30%;
+}
+.vision{
+    width: 30%;
+}
 .gs{
     padding: 2px;
     border: 1 px solid red;
